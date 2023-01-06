@@ -1,2 +1,8 @@
 /build/
+/builddir/
+/subprojects/*
+!/subprojects/*.wrap
+!/subprojects/packagefiles/
+/prefix/
 imgui.ini
+*.ktx2

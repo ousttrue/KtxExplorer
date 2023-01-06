@@ -8,8 +8,10 @@
             "name": "KtxExplorer",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Debug/bin/KtxExplorer.exe",
-            "args": [],
+            "program": "${workspaceFolder}/prefix/bin/KtxExplorer.exe",
+            "args": [
+                "leapmotion.ktx2",
+            ],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],

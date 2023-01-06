@@ -1,4 +1,4 @@
-subdirs(glfw)
+subdirs(glfw KTX-Software)
 
 set(TARGET_NAME imgui)
 add_library(
